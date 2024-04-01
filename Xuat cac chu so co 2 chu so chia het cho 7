@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+void boi7()
+{
+ printf("Xuat cac chu so co 2 chu so chia het cho 7 \n");
+ for(int i=10;i<=99;i++)
+ {
+     if(i%7==0)
+        printf("%2d \t",i);
+ }
+}
+//Chuong trinh chinh
+int main()
+{
+	boi7();
+	return 0;
+}
